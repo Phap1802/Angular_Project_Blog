@@ -2,19 +2,21 @@
     
         <div class="big-card__image">
             <img 
-                 src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nmb3_8DCuANFEcfXD7iyEQ.png" 
+                 src="{{photoCover}}"
                  alt="FALHOU"
                  srcset=""
                  
                 >
         </div>
         <div class="big-card__title">
-            <h1><a href="https://blog.angular.io/incremental-static-regeneration-for-angular-c12745ff4b48">Regeneração Estática Incremental para Angular</a></h1>
+            <h1><a href="{{cardTitleHref}}">{{cardTitle}}</a></h1>
         </div>
         <div class="big-card__description">
-            <p><a href="https://blog.angular.io/incremental-static-regeneration-for-angular-c12745ff4b48">
-                No Angular v16 ganhamos um novo sistema de hidratação. Também foi sugerido que experimentos para hidratação parcial e retomada estão em andamento. Esta é uma ótima notícia para os desenvolvedores Angular, mas ainda há muito trabalho a ser feito para tornar os aplicativos Angular com melhor desempenho e SEO mais amigáveis.
+            <p><a href="{{cardDescriptionHref}}">{{cardDescription}}
             </a></p>
         </div>
     
 </div>
+
+
+<!-- No Angular v16 ganhamos um novo sistema de hidratação. Também foi sugerido que experimentos para hidratação parcial e retomada estão em andamento. Esta é uma ótima notícia para os desenvolvedores Angular, mas ainda há muito trabalho a ser feito para tornar os aplicativos Angular com melhor desempenho e SEO mais amigáveis. -->
