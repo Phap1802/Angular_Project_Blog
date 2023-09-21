@@ -15,4 +15,7 @@ export class SmallCardComponent {
 
   @Input()
   cardTitleHr:string = ""
+
+  @Input()
+  Id:string ="0"
 }

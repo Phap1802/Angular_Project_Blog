@@ -26,4 +26,7 @@ export class BigCardComponent {
     //metodo para href do "p>a" 
     @Input()
     cardDescriptionHref:string = ""
+
+    @Input()
+    Id:string ="0"
 }
