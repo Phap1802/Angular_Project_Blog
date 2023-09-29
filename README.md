@@ -1,27 +1,18 @@
-# AngularBlog
+# Phantom Poke Blog - Projeto Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+### Bem-vindo ao Phantom Poke Blog, um projeto Angular que surge como resultado do treinamento nos fundamentos ministrados pelo professor Felipe Aguiar na plataforma DIO.
 
-## Development server
+# Visão Geral do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Neste repositório, você encontrará o Phantom Poke Blog, um projeto Angular desenvolvido para consolidar e aplicar os conceitos abordados durante as aulas. Este blog personalizado foi criado com paixão pelo mundo dos "Pokemons", com especial ênfase na tipagem "Fantasma".
 
-## Code scaffolding
+# Funcionalidades Destacadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Responsividade: Implementei recursos de responsividade para garantir uma experiência de usuário agradável em dispositivos de diferentes tamanhos. Um menu hamburguer foi adicionado, tornando-se visível somente em telas menores. A exibição dinâmica deste menu é controlada pela diretiva *ngIf do Angular, que se baseia na variável "navbarOpen". Essa variável é alternada pela função "toggleNavbar()" após a detecção de eventos de clique.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Conclusão e Agradecimentos
 
-## Running unit tests
+### Ter a oportunidade de aprender com as aulas ministradas pelo professor Felipe da DIO foi uma experiência incrível. Sua didática, dividindo o conteúdo passo a passo, tornou acessível algo que, inicialmente, parecia um desafio monumental - o Angular. Através deste projeto de blog, ganhei uma compreensão mais clara do desenvolvimento web com Angular. Agora, em vez de receio, sinto um entusiasmo crescente para continuar aprendendo e aprofundando meu conhecimento nessa tecnologia empolgante.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Agradeço por visitar este repositório e por sua disposição em explorar o Phantom Poke Blog.
