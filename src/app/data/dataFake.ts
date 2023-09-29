@@ -19,7 +19,7 @@ export const dataFake = [
     },
     {
         "id":"4",
-        "title": "Darkrai: o Pokémon da escuridão dos sonhos",
+        "title": "Darkrai: o Pokémon da escuridão dos Pesadelos",
         "description": "Darkrai é um Pokémon do tipo sombrio introduzido na Geração IV. É um Pokémon lendário que é conhecido por sua capacidade de induzir pesadelos nas pessoas. É um Pokémon de cor preta, com um corpo esguio e elegante, olhos vermelhos brilhantes e um sorriso malicioso. Tem duas mãos com três dedos cada e também tem três dedos em cada pé.  Possui uma cauda longa e fina. Darkrai é um Pokémon muito poderoso, com altas estatísticas de ataque especial e velocidade. Ele é conhecido por sua capacidade de criar ilusões e manipular o tempo. De acordo com a Pokédex, Darkrai é um Pokémon que vive em um mundo de sonhos. Ele é dito que pode ser visto às vezes em noites escuras, causando pesadelos nas pessoas.", 
         "photoCover":"https://i.pinimg.com/564x/c9/c5/8e/c9c58efc209994d249c97219076e22f2.jpg",
     },

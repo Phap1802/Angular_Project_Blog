@@ -1,5 +1,7 @@
+
 .container_menu-title{
     color: white;
+    text-shadow: rgba(0, 0, 0, 0.603) 0px 5px 15px;
 
 }
 
@@ -7,10 +9,11 @@
     
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 150px;
+    font-size: 200px;
     display: flex;
     justify-content: center;
     font-family: 'segoe ui';
+
 }
 
 

@@ -5,3 +5,11 @@ header {
     justify-content: center;
     
 }
+
+.pagina-principal { 
+    display: flex;
+    flex-direction: column;
+
+   background: rgb(106,0,149);
+   background: linear-gradient(0deg, rgba(106,0,149,1) 0%, rgba(217,39,255,1) 50%, rgba(106,0,149,1) 100%);
+}

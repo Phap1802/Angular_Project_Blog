@@ -11,13 +11,20 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
 .big-card__image img{
-    width: 100%;
+    
     min-width: 600px;
+    min-height: 330px;
+    max-width: 600px;
+    max-height: 330px;
 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 .big-card__title > h1 {
@@ -28,10 +35,11 @@
 
 .big-card__description{
 margin-top: 10px;
+
 }
 
 .big-card__description > p > a  {
     
-    color:rgb(116, 116, 116);
+    color:rgb(221, 221, 221);
     
 }

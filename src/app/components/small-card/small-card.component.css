@@ -1,9 +1,14 @@
+
+
+
 .container__smail-card {
   
 
     width: 700px;
 
     margin-bottom: 15px;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
    
 }
 
@@ -15,12 +20,17 @@
 
 .small-card__image > img {
 
-    width: 200px;
-    height: 100%;
+   
+    max-width: 200px;
+    max-height: 150px;
     min-width: 200px;
-    min-height: 115px;
+    min-height: 150px;
+
+
     margin-right: 20px;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -29,12 +39,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
 .container__small-card__separator > hr {
 
     margin-top: 20px;
+    color: white;
 
 
 }

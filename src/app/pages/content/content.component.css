@@ -23,12 +23,15 @@
 
 .content__cover > img {
     
-    width: 800px;
+    max-width: 800px;
     min-width: 800px;
-    height: 400px;
+    max-height: 400px;
     min-height: 400px;
 
     margin-top: 50px;
+
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.466) 0px 5px 15px;
     
     
 }
@@ -36,21 +39,32 @@
 .content__title > h1 {
     margin-top: 50px;
     max-width: 800px;
-
+    
+    text-shadow: rgba(0, 0, 0, 0.603) 0px 5px 15px;
 
 
 }
 
 .content__description > p  {
-    color: rgb(148, 148, 148);
+    color: rgb(226, 226, 226);
     margin-top: 20px;
     max-width: 800px;
     text-align: justify;
+    text-shadow: rgba(0, 0, 0, 0.603) 0px 5px 15px;
 }
 
 
 
 .container__content > a {
-    margin-top: 20px;
+    margin-top: 30px;
 
+    padding: 5px;
+    border: none;
+    background-color: blueviolet;
+    box-shadow: rgba(0, 0, 0, 0.521) 0px 5px 15px;
+    border-radius: 7px;
+    width: 250px;
+    height: 30px; 
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.603) 0px 5px 15px;
 }

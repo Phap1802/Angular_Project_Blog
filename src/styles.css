@@ -4,7 +4,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: #111111;
+    background: none;
+
     color: white;
     font-family: 'segoe ui';
 
@@ -13,3 +14,10 @@
  a{
    text-decoration: none;
  }
+
+
+ body {
+    overflow-x: hidden;
+ }
+ 
+ 
